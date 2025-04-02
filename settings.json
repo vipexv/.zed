@@ -68,7 +68,8 @@
     "title_bar.inactive_background": "#000000",
     "terminal.background": "#000000",
     "editor.active_line.background": "#000000",
-    "panel.background": "#000000"
+    "panel.background": "#000000",
+    "toolbar.background": "#000000"
   },
   "project_panel": {
     "indent_size": 15,
