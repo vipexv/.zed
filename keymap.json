@@ -14,7 +14,7 @@
 
 [
   {
-    "context": "Workspace",
+    "context": "vim_mode == normal",
     "bindings": {
       "space p f": "file_finder::Toggle"
     }
