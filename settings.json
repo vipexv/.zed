@@ -49,11 +49,7 @@
   "diagnostics": {
     "include_warnings": true,
     "inline": {
-      "enabled": true,
-      "update_debounce_ms": 150,
-      "padding": 4,
-      "min_column": 0,
-      "max_severity": null
+      "enabled": true
     }
   },
   "experimental.theme_overrides": {
@@ -71,6 +67,15 @@
     "panel.background": "#000000",
     "toolbar.background": "#000000"
   },
+  "terminal": {
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe"
+    },
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+
   "project_panel": {
     "indent_size": 15,
     "entry_spacing": "standard",
