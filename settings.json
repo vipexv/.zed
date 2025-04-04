@@ -73,7 +73,9 @@
     },
     "toolbar": {
       "breadcrumbs": false
-    }
+    },
+    "line_height": "standard",
+    "font_size": 16
   },
 
   "project_panel": {
