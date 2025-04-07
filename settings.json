@@ -75,13 +75,15 @@
       "breadcrumbs": false
     },
     "line_height": "standard",
-    "font_size": 16
+    "font_size": 16,
+    "dock": "right"
   },
 
   "project_panel": {
     "indent_size": 15,
     "entry_spacing": "standard",
     "default_width": 200,
+    "auto_fold_dirs": false,
     "scrollbar": {
       "show": "never"
     },
