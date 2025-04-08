@@ -18,13 +18,13 @@
   {
     "context": "vim_mode == normal",
     "bindings": {
-      "space p f": "workspace::ToggleLeftDock"
+      "space p v": "workspace::ToggleLeftDock"
     }
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "space p f": "workspace::ToggleLeftDock"
+      "space p v": "workspace::ToggleLeftDock"
     }
   }
 ]
