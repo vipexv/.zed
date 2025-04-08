@@ -19,6 +19,7 @@
   "vim_mode": true,
   "ui_font_size": 20,
   "ui_font_family": "Iosevka",
+  "hover_popover_enabled": false,
   "edit_predictions": {
     "enabled_in_assistant": false
   },
@@ -30,7 +31,7 @@
     "version": "1"
   },
   "inlay_hints": {
-    "enabled": true,
+    "enabled": false,
     "show_parameter_hints": true,
     "show_type_hints": true
   },
@@ -94,7 +95,7 @@
   "scrollbar": {
     "show": "never"
   },
-  "soft_wrap": "none",
+  "soft_wrap": "bounded",
   "languages": {
     "Lua": {
       "soft_wrap": "none",
@@ -104,6 +105,6 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Mocha"
+    "dark": "Tokyo Night"
   }
 }
