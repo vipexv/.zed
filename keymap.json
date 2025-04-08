@@ -26,5 +26,11 @@
     "bindings": {
       "space p v": "workspace::ToggleLeftDock"
     }
+  },
+  {
+    "context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel",
+    "bindings": {
+      "space p f": "file_finder::Toggle"
+    }
   }
 ]
