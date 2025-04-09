@@ -23,6 +23,9 @@
   "edit_predictions": {
     "enabled_in_assistant": false
   },
+  "file_finder": {
+    "modal_max_width": "medium"
+  },
   "features": {
     "edit_prediction_provider": "none"
   },
