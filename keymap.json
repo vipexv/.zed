@@ -32,5 +32,11 @@
     "bindings": {
       "space p f": "file_finder::Toggle"
     }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "c a": "project_panel::CollapseAllEntries"
+    }
   }
 ]
