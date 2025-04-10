@@ -36,7 +36,8 @@
   {
     "context": "ProjectPanel",
     "bindings": {
-      "c a": "project_panel::CollapseAllEntries"
+      "c a": "project_panel::CollapseAllEntries",
+      "c c": "project_panel::CollapseSelectedEntry"
     }
   }
 ]
