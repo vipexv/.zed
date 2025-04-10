@@ -56,6 +56,9 @@
       "enabled": true
     }
   },
+  "tab_bar": {
+    "show": false
+  },
   "experimental.theme_overrides": {
     "editor.background": "#000000",
     "background": "#000000",
@@ -107,7 +110,7 @@
   },
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Ayu Light",
     "dark": "Tokyo Night"
   }
 }
