@@ -102,7 +102,7 @@
   "scrollbar": {
     "show": "never"
   },
-  "soft_wrap": "bounded",
+  "soft_wrap": "none",
   "languages": {
     "Lua": {
       "soft_wrap": "none",
