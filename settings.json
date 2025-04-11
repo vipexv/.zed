@@ -91,6 +91,7 @@
     "entry_spacing": "standard",
     "default_width": 200,
     "auto_fold_dirs": false,
+    "dock": "right",
     "scrollbar": {
       "show": "never"
     },
