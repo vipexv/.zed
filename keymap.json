@@ -12,19 +12,19 @@
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-`": "workspace::ToggleRightDock"
+      "ctrl-`": "workspace::ToggleLeftDock"
     }
   },
   {
     "context": "vim_mode == normal || EmptyPane",
     "bindings": {
-      "space p v": "workspace::ToggleLeftDock"
+      "space p v": "workspace::ToggleRightDock"
     }
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "space p v": "workspace::ToggleLeftDock"
+      "space p v": "workspace::ToggleRightDock"
     }
   },
   {
