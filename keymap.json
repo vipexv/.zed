@@ -23,22 +23,17 @@
     }
   },
   {
-    "context": "ProjectPanel",
+    "context": "ProjectPanel && !editing",
     "bindings": {
-      "space p v": "workspace::ToggleRightDock"
+      "space p v": "workspace::ToggleRightDock",
+      "c a": "project_panel::CollapseAllEntries",
+      "c c": "project_panel::CollapseSelectedEntry"
     }
   },
   {
     "context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel || EmptyPane",
     "bindings": {
       "space p f": "file_finder::Toggle"
-    }
-  },
-  {
-    "context": "ProjectPanel",
-    "bindings": {
-      "c a": "project_panel::CollapseAllEntries",
-      "c c": "project_panel::CollapseSelectedEntry"
     }
   }
 ]
