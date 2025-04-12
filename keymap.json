@@ -12,7 +12,8 @@
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-`": "workspace::ToggleLeftDock"
+      "ctrl-`": "workspace::ToggleLeftDock",
+      "ctrl-shift-/": "workspace::NewTerminal"
     }
   },
   {
