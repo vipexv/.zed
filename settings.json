@@ -59,21 +59,6 @@
   "tab_bar": {
     "show": false
   },
-  "experimental.theme_overrides": {
-    "editor.background": "#000000",
-    "background": "#000000",
-    "status_bar.background": "#000000",
-    "editor.gutter.background": "#000000",
-    "tab_bar.background": "#000000",
-    "tab.active_background": "#2a2a2a",
-    "tab.inactive_background": "#000000",
-    "title_bar.background": "#000000",
-    "title_bar.inactive_background": "#000000",
-    "terminal.background": "#000000",
-    "editor.active_line.background": "#000000",
-    "panel.background": "#000000",
-    "toolbar.background": "#000000"
-  },
   "terminal": {
     "shell": {
       "program": "C:\\Program Files\\Git\\bin\\bash.exe"
