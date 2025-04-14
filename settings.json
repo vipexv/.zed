@@ -13,6 +13,7 @@
 	"hard_tabs": true,
 	"ui_font_family": "Iosevka",
 	"hover_popover_enabled": false,
+	"extend_comment_on_newline": false,
 	"edit_predictions": {
 		"enabled_in_assistant": false
 	},
