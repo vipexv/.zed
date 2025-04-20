@@ -9,7 +9,7 @@
 	},
 	"use_smartcase_search": true,
 	"vim_mode": true,
-	"ui_font_size": 20,
+	"ui_font_size": 22,
 	"hard_tabs": true,
 	"ui_font_family": "Iosevka",
 	"hover_popover_enabled": false,
@@ -41,9 +41,10 @@
 	},
 	"cursor_shape": "block",
 	"buffer_line_height": "standard",
-	"preferred_line_length": 200,
 	"buffer_font_family": "Iosevka",
-	"buffer_font_size": 20,
+	"buffer_font_weight": 400,
+	"buffer_font_size": 22,
+	"preferred_line_length": 200,
 	"diagnostics": {
 		"include_warnings": true,
 		"inline": {
@@ -92,7 +93,7 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "Ayu Light",
-		"dark": "Tokyo Night"
+		"light": "Catppuccin Latte",
+		"dark": "Catppuccin Mocha"
 	}
 }
