@@ -9,9 +9,12 @@
 	},
 	"use_smartcase_search": true,
 	"vim_mode": true,
-	"ui_font_size": 22,
+	"ui_font_family": "Pixel Code",
+	"buffer_font_family": "Iosevka",
+	"ui_font_size": 18,
+	"buffer_font_size": 22,
+	"buffer_font_weight": 400,
 	"hard_tabs": true,
-	"ui_font_family": "Iosevka",
 	"hover_popover_enabled": false,
 	"extend_comment_on_newline": false,
 	"edit_predictions": {
@@ -41,9 +44,6 @@
 	},
 	"cursor_shape": "block",
 	"buffer_line_height": "standard",
-	"buffer_font_family": "Iosevka",
-	"buffer_font_weight": 400,
-	"buffer_font_size": 22,
 	"preferred_line_length": 200,
 	"diagnostics": {
 		"include_warnings": true,
@@ -62,7 +62,6 @@
 			"breadcrumbs": false
 		},
 		"line_height": "standard",
-		"font_size": 16,
 		"dock": "left",
 		"scrollbar": {
 			"show": "never"
@@ -94,6 +93,6 @@
 	"theme": {
 		"mode": "system",
 		"light": "Catppuccin Latte",
-		"dark": "Catppuccin Mocha"
+		"dark": "Twilight"
 	}
 }
