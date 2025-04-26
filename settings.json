@@ -72,7 +72,9 @@
 		"dock": "left",
 		"scrollbar": {
 			"show": "never"
-		}
+		},
+		"font_family": "Pixel Code",
+		"font_size": 14
 	},
 	"project_panel": {
 		"indent_size": 15,
