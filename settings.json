@@ -10,15 +10,22 @@
 	"use_smartcase_search": true,
 	"vim_mode": true,
 	"ui_font_family": "Pixel Code",
-	"buffer_font_family": "Iosevka",
 	"ui_font_size": 18,
-	"buffer_font_size": 22,
-	"buffer_font_weight": 400,
+	"ui_font_weight": 550,
+	"buffer_font_family": "mononoki",
+	"buffer_font_size": 23,
+	"buffer_font_weight": 550,
 	"hard_tabs": true,
 	"hover_popover_enabled": false,
 	"extend_comment_on_newline": false,
 	"edit_predictions": {
 		"enabled_in_assistant": false
+	},
+	"gutter": {
+		"line_numbers": true,
+		// "code_actions": false,
+		// "runnables": false,
+		"folds": false
 	},
 	"file_finder": {
 		"modal_max_width": "medium"
