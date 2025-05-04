@@ -35,12 +35,13 @@
 		"version": "1"
 	},
 	"inlay_hints": {
-		"enabled": false,
+		"enabled": true,
 		"show_parameter_hints": true,
-		"show_type_hints": true
+		"show_type_hints": false
 	},
 	"vim": {
 		"toggle_relative_line_numbers": true,
+		"highlight_on_yank_duration": 200,
 		"use_system_clipboard": "always"
 	},
 	"git": {
