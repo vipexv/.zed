@@ -6,6 +6,11 @@
 	"use_smartcase_search": true,
 	"vim_mode": true,
 	"use_autoclose": false,
+	"active_pane_modifiers": {
+		"border_size": 2,
+		"inactive_opacity": 0.5
+	},
+
 	"ui_font_family": "Pixel Code",
 	"ui_font_size": 18,
 	"ui_font_weight": 550,
