@@ -118,7 +118,7 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "Catppuccin Latte",
-		"dark": "Twilight"
+		"light": "macOS Classic Light",
+		"dark": "Hiberbee Dark"
 	}
 }
