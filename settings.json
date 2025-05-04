@@ -3,10 +3,6 @@
 		"diagnostics": false,
 		"metrics": false
 	},
-	"toolbar": {
-		"breadcrumbs": false,
-		"quick_actions": false
-	},
 	"use_smartcase_search": true,
 	"vim_mode": true,
 	"ui_font_family": "Pixel Code",
