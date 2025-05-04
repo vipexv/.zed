@@ -91,6 +91,24 @@
 	"scrollbar": {
 		"show": "never"
 	},
+	"lsp": {
+		"rust-analyzer": {
+			"initialization_options": {
+				"diagnostics": {
+					"experimental": {
+						"enable": true
+					}
+				},
+				"checkOnSave": false,
+				"cargo": {
+					"allTargets": false
+				},
+				"check": {
+					"workspace": false
+				}
+			}
+		}
+	},
 	"soft_wrap": "none",
 	"languages": {
 		"Lua": {
