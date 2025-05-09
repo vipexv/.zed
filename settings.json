@@ -5,23 +5,23 @@
 	},
 	"use_smartcase_search": true,
 	"vim_mode": true,
-	"use_autoclose": false,
+	"use_autoclose": true,
 	"active_pane_modifiers": {
 		"border_size": 2,
 		"inactive_opacity": 0.5
 	},
 
-	"ui_font_family": "Pixel Code",
+	"ui_font_family": "mononoki",
 	"ui_font_size": 18,
 	"ui_font_weight": 550,
-	"buffer_font_family": "Iosevka",
+	"buffer_font_family": "mononoki",
 	"buffer_font_size": 26,
 	"buffer_font_weight": 550,
 	"hard_tabs": true,
 	"hover_popover_enabled": false,
 	"extend_comment_on_newline": false,
 	"edit_predictions": {
-		"enabled_in_assistant": false
+		"enabled_in_text_threads": false
 	},
 	"gutter": {
 		"line_numbers": true,
@@ -35,7 +35,7 @@
 	"features": {
 		"edit_prediction_provider": "none"
 	},
-	"assistant": {
+	"agent": {
 		"enabled": false,
 		"version": "1"
 	},
@@ -76,7 +76,7 @@
 		"scrollbar": {
 			"show": "never"
 		},
-		"font_family": "Pixel Code",
+		"font_family": "mononoki",
 		"font_weight": 550,
 		"font_size": 15
 	},
@@ -123,7 +123,7 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "macOS Classic Light",
-		"dark": "Hiberbee Dark"
+		"light": "Catppuccin Latte",
+		"dark": "macOS Classic Dark"
 	}
 }
