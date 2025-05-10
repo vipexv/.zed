@@ -10,7 +10,6 @@
 		"border_size": 2,
 		"inactive_opacity": 0.5
 	},
-
 	"ui_font_family": "mononoki",
 	"ui_font_size": 18,
 	"ui_font_weight": 550,
@@ -61,6 +60,7 @@
 			"enabled": true
 		}
 	},
+	"tab_size": 4,
 	"tab_bar": {
 		"show": false
 	},
@@ -123,7 +123,7 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "Catppuccin Latte",
-		"dark": "macOS Classic Dark"
+		"light": "Ayu Light",
+		"dark": "RustRover Dark"
 	}
 }
