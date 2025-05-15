@@ -10,12 +10,13 @@
 		"border_size": 2,
 		"inactive_opacity": 0.5
 	},
-	"ui_font_family": "mononoki",
+	"ui_font_family": "Input Mono",
 	"ui_font_size": 18,
-	"ui_font_weight": 550,
-	"buffer_font_family": "mononoki",
-	"buffer_font_size": 26,
-	"buffer_font_weight": 550,
+	"ui_font_weight": 500,
+	"buffer_font_family": "Input Mono",
+	"buffer_font_size": 25,
+	"buffer_font_weight": 500,
+	"buffer_line_height": "standard",
 	"hard_tabs": true,
 	"hover_popover_enabled": false,
 	"extend_comment_on_newline": false,
@@ -52,7 +53,6 @@
 		"git_gutter": "hide"
 	},
 	"cursor_shape": "block",
-	"buffer_line_height": "standard",
 	"preferred_line_length": 200,
 	"diagnostics": {
 		"include_warnings": true,
@@ -76,9 +76,9 @@
 		"scrollbar": {
 			"show": "never"
 		},
-		"font_family": "mononoki",
-		"font_weight": 550,
-		"font_size": 15
+		"font_family": "Input Mono",
+		"font_weight": 500,
+		"font_size": 20
 	},
 	"project_panel": {
 		"indent_size": 15,
@@ -123,7 +123,7 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "Ayu Light",
-		"dark": "RustRover Dark"
+		"light": "Rosé Pine Dawn",
+		"dark": "Rosé Pine"
 	}
 }
