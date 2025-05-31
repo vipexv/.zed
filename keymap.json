@@ -7,12 +7,14 @@
 	},
 	{
 		"context": "vim_mode == insert",
-		"bindings": { "ctrl-s": ["workspace::SendKeystrokes", "escape : w enter"] }
+		"bindings": {
+			"ctrl-s": ["workspace::SendKeystrokes", "escape : w enter"]
+		}
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
-			"ctrl-`": "workspace::ToggleLeftDock",
+			"ctrl-`": "workspace::ToggleBottomDock",
 			"ctrl-shift-/": "workspace::NewTerminal"
 		}
 	},
