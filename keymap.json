@@ -21,13 +21,13 @@
 	{
 		"context": "vim_mode == normal || EmptyPane",
 		"bindings": {
-			"space p v": "workspace::ToggleRightDock"
+			"space p v": "workspace::ToggleLeftDock"
 		}
 	},
 	{
 		"context": "ProjectPanel && !editing",
 		"bindings": {
-			"space p v": "workspace::ToggleRightDock",
+			"space p v": "workspace::ToggleLeftDock",
 			"c a": "project_panel::CollapseAllEntries",
 			"c c": "project_panel::CollapseSelectedEntry"
 		}
