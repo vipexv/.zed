@@ -11,12 +11,14 @@
 	},
 	"toolbar": {
 		"selections_menu": false,
-		// "breadcrumbs": false,
+		"breadcrumbs": false,
 		"agent_review": false,
 		"code_actions": false,
 		"quick_actions": false
 	},
+	"inline_code_actions": false,
 	"use_smartcase_search": true,
+	"disable_ai": true,
 	"vim_mode": true,
 	"use_autoclose": true,
 	"use_system_path_prompts": false,
@@ -69,7 +71,7 @@
 	},
 	"tab_size": 4,
 	"tab_bar": {
-		"show": false
+		"show": true
 	},
 	"terminal": {
 		"shell": {
@@ -84,7 +86,8 @@
 		"scrollbar": {
 			"show": "never"
 		},
-		"font_size": 14
+		"font_size": 14,
+		"font_weight": 500
 	},
 	"project_panel": {
 		"default_width": 340,
@@ -128,8 +131,8 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "One Light",
-		"dark": "JetBrains Rider Dark"
+		"light": "Panda Light",
+		"dark": "One Dark"
 	},
 	"icon_theme": {
 		"dark": "JetBrains New UI Icons (Dark)",
