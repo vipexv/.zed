@@ -35,7 +35,7 @@
 	{
 		"context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel || EmptyPane",
 		"bindings": {
-			"space p f": "file_finder::Toggle"
+			"f f": "file_finder::Toggle"
 		}
 	}
 ]

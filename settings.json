@@ -30,7 +30,7 @@
 	"ui_font_family": "SF Pro Text",
 	"ui_font_weight": 500,
 	"hard_tabs": true,
-	"hover_popover_enabled": false,
+	"hover_popover_enabled": true,
 	"extend_comment_on_newline": false,
 	"auto_signature_help": true,
 	"max_tabs": null,
@@ -132,7 +132,7 @@
 	"theme": {
 		"mode": "system",
 		"light": "Panda Light",
-		"dark": "One Dark"
+		"dark": "JetBrains Rider Dark"
 	},
 	"icon_theme": {
 		"dark": "JetBrains New UI Icons (Dark)",
