@@ -1,4 +1,10 @@
 {
+	"collaboration_panel": {
+		"dock": "left"
+	},
+	"outline_panel": {
+		"dock": "left"
+	},
 	"git_panel": {
 		"dock": "left"
 	},
@@ -21,19 +27,15 @@
 	"disable_ai": true,
 	"vim_mode": true,
 	"use_autoclose": true,
-	"use_system_path_prompts": false,
-	"soft_wrap": "none",
-	"buffer_font_family": "Geist Mono",
 	"buffer_line_height": "standard",
 	"buffer_font_size": 16,
-	"buffer_font_weight": 500,
-	"ui_font_family": "SF Pro Text",
+	"buffer_font_family": "Menlo",
+	"use_system_window_tabs": true,
 	"ui_font_weight": 500,
 	"hard_tabs": true,
 	"hover_popover_enabled": true,
 	"extend_comment_on_newline": false,
 	"auto_signature_help": true,
-	"max_tabs": null,
 	"edit_predictions": {
 		"enabled_in_text_threads": false
 	},
@@ -62,7 +64,11 @@
 		"show_type_hints": false
 	},
 	"remove_trailing_whitespace_on_save": true,
+	"format_on_save": "on",
 	"ensure_final_newline_on_save": true,
+	"buffer_font_features": {
+		"calt": false
+	},
 	"vim": {
 		"toggle_relative_line_numbers": true,
 		"highlight_on_yank_duration": 200,
@@ -71,13 +77,9 @@
 	},
 	"tab_size": 4,
 	"tab_bar": {
-		"show": true
+		"show": false
 	},
 	"terminal": {
-		"shell": {
-			"program": "C:\\Users\\v\\scoop\\apps\\git\\current\\bin\\bash.exe"
-		},
-		"default_height": 2080,
 		"toolbar": {
 			"breadcrumbs": false
 		},
@@ -86,7 +88,7 @@
 		"scrollbar": {
 			"show": "never"
 		},
-		"font_size": 14,
+		"font_size": 17,
 		"font_weight": 500
 	},
 	"project_panel": {
@@ -94,22 +96,23 @@
 		"indent_size": 15,
 		"dock": "left",
 		"auto_fold_dirs": false,
+		"sticky_scroll": false,
 		"scrollbar": {
 			"show": "never"
 		}
 	},
 	"scrollbar": {
-		"show": "never"
+		"show": "auto"
 	},
 	"lsp": {
 		"rust-analyzer": {
 			"initialization_options": {
 				"diagnostics": {
 					"experimental": {
-						"enable": false
+						"enable": true
 					}
 				},
-				"checkOnSave": true,
+				"checkOnSave": false,
 				"cargo": {
 					"allTargets": false
 				},
@@ -120,9 +123,6 @@
 		}
 	},
 	"diagnostics": {
-		"cargo": {
-			"fetch_cargo_diagnostics": false
-		},
 		"include_warnings": true,
 		"inline": {
 			"enabled": true,
@@ -131,13 +131,8 @@
 	},
 	"theme": {
 		"mode": "system",
-		"light": "Panda Light",
-		"dark": "JetBrains Rider Dark"
-	},
-	"icon_theme": {
-		"dark": "JetBrains New UI Icons (Dark)",
-		"light": "JetBrains New UI Icons (Light)",
-		"mode": "system"
+		"light": "Catppuccin Latte",
+		"dark": "Denix Theme"
 	}
 	// "experimental.theme_overrides": {
 	// 	"editor.background": "#090909",

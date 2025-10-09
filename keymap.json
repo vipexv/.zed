@@ -8,7 +8,7 @@
 	{
 		"context": "vim_mode == insert",
 		"bindings": {
-			"ctrl-s": ["workspace::SendKeystrokes", "escape : w enter"]
+			"cmd-s": ["workspace::SendKeystrokes", "escape : w enter"]
 		}
 	},
 	{
@@ -36,6 +36,25 @@
 		"context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel || EmptyPane",
 		"bindings": {
 			"f f": "file_finder::Toggle"
+		}
+	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-r": null
+		}
+	},
+	{
+		"context": "Editor || Terminal",
+		"bindings": {
+			"cmd-}": "window::ShowNextWindowTab",
+			"cmd-{": "window::ShowPreviousWindowTab"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"space space": "tab_switcher::ToggleAll"
 		}
 	}
 ]
