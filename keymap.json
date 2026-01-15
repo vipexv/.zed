@@ -2,59 +2,63 @@
 	{
 		"context": "vim_mode == visual",
 		"bindings": {
-			"shift-s": ["vim::PushAddSurrounds", {}]
-		}
+			"shift-s": ["vim::PushAddSurrounds", {}],
+		},
 	},
 	{
 		"context": "vim_mode == insert",
 		"bindings": {
-			"cmd-s": ["workspace::SendKeystrokes", "escape : w enter"]
-		}
+			"cmd-s": ["workspace::SendKeystrokes", "escape : w enter"],
+		},
 	},
 	{
 		"context": "Terminal",
 		"bindings": {
 			"ctrl-`": "workspace::ToggleBottomDock",
-			"ctrl-shift-/": "workspace::NewTerminal"
-		}
+			"ctrl-shift-/": "workspace::NewTerminal",
+		},
 	},
 	{
 		"context": "vim_mode == normal || EmptyPane",
 		"bindings": {
-			"space p v": "workspace::ToggleLeftDock"
-		}
+			"space p v": "workspace::ToggleRightDock",
+			"space p r": "workspace::ToggleRightDock",
+			"space p l": "workspace::ToggleLeftDock",
+			"space space": "tab_switcher::Toggle",
+			"space g": "go_to_line::Toggle",
+		},
 	},
 	{
 		"context": "ProjectPanel && !editing",
 		"bindings": {
-			"space p v": "workspace::ToggleLeftDock",
+			"space p v": "workspace::ToggleRightDock",
 			"c a": "project_panel::CollapseAllEntries",
-			"c c": "project_panel::CollapseSelectedEntry"
-		}
+			"c c": "project_panel::CollapseSelectedEntry",
+		},
 	},
 	{
-		"context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel || EmptyPane",
+		"context": "AgentPanel",
 		"bindings": {
-			"f f": "file_finder::Toggle"
-		}
+			"cmd-?": "workspace::ToggleLeftDock",
+		},
+	},
+	{
+		"context": "Workspace && vim_mode == normal || vim_mode == normal || ProjectPanel && !editing || EmptyPane",
+		"bindings": {
+			"f f": "file_finder::Toggle",
+		},
 	},
 	{
 		"context": "Workspace",
 		"bindings": {
-			"cmd-r": null
-		}
+			"cmd-r": null,
+		},
 	},
 	{
 		"context": "Editor || Terminal",
 		"bindings": {
 			"cmd-}": "window::ShowNextWindowTab",
-			"cmd-{": "window::ShowPreviousWindowTab"
-		}
+			"cmd-{": "window::ShowPreviousWindowTab",
+		},
 	},
-	{
-		"context": "Editor",
-		"bindings": {
-			"space space": "tab_switcher::ToggleAll"
-		}
-	}
 ]
