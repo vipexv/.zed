@@ -2,7 +2,7 @@
 	"ui_font_family": "Monoid",
 	"buffer_font_size": 14.0,
 	"ui_font_size": 13.0,
-	"buffer_font_weight": 400.0,
+	"buffer_font_weight": 450.0,
 	"buffer_font_family": "Monoid",
 	"search": {
 		"include_ignored": false,
@@ -80,7 +80,7 @@
 		"git_status": false,
 	},
 	"icon_theme": {
-		"dark": "Material Icon Theme",
+		"dark": "Zed (Default)",
 		"light": "Zed (Default)",
 	},
 	"collaboration_panel": {
@@ -246,8 +246,8 @@
 		},
 	},
 	"theme": {
-		"mode": "system",
-		"light": "Base16 Google Light",
-		"dark": "JetBrains Dark",
-	},
+  "mode": "system",
+  "light": "Base16 Google Light",
+  "dark": "Base16 Windows 10"
+ },
 }
