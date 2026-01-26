@@ -1,9 +1,9 @@
 {
-	"ui_font_family": "Monoid",
+	"ui_font_family": "JetBrains Mono",
 	"buffer_font_size": 14.0,
 	"ui_font_size": 13.0,
 	"buffer_font_weight": 450.0,
-	"buffer_font_family": "Monoid",
+	"buffer_font_family": "JetBrains Mono",
 	"search": {
 		"include_ignored": false,
 	},
@@ -40,7 +40,8 @@
 	},
 	"zoomed_padding": true,
 	"active_pane_modifiers": {
-		"inactive_opacity": 0.5,
+		"border_size": 0.0,
+		"inactive_opacity": 1.0,
 	},
 	"relative_line_numbers": "wrapped",
 	"title_bar": {
@@ -67,9 +68,10 @@
 		"enabled": false,
 	},
 	"use_auto_surround": true,
-	"cursor_shape": "block",
+	"cursor_shape": "hollow",
 	"lsp_document_colors": "inlay",
 	"show_completion_documentation": false,
+	"file_scan_exclusions": [],
 	"preview_tabs": {
 		"enabled": false,
 	},
@@ -166,7 +168,7 @@
 	"tab_size": 4,
 	"tab_bar": {
 		"show_nav_history_buttons": false,
-		"show": false,
+		"show": true,
 	},
 	"terminal": {
 		"alternate_scroll": "on",
@@ -246,8 +248,8 @@
 		},
 	},
 	"theme": {
-  "mode": "system",
-  "light": "Base16 Google Light",
-  "dark": "Base16 Windows 10"
- },
+		"mode": "system",
+		"light": "Base16 Google Light",
+		"dark": "Github Plus Dark",
+	},
 }
