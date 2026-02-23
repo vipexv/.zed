@@ -61,4 +61,15 @@
 			"cmd-{": "window::ShowPreviousWindowTab",
 		},
 	},
+	{
+		"context": "Workspace",
+		"bindings": {
+			"cmd-shift-j": "git::ExpandCommitEditor",
+		},
+	},
+	{
+		"bindings": {
+			"cmd-:": "git::SelectRepo",
+		},
+	},
 ]
