@@ -27,7 +27,7 @@
 			"space space": "tab_switcher::Toggle",
 			"space g": "go_to_line::Toggle",
 			"] h": "editor::GoToHunk",
-			"[ h": "editor::GoToPreviousHunk",
+			"[ h": "editor::GoToPrevHunk",
 		},
 	},
 	{

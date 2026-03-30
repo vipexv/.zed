@@ -1,11 +1,29 @@
 {
+	"ui_font_weight": 600.0,
+ "minimap": {
+  "thumb_border": "left_open"
+ },
+ "auto_signature_help": false,
+	"sticky_scroll": {
+		"enabled": false,
+	},
+	"which_key": {
+		"enabled": false,
+	},
+	"diff_view_style": "split",
+	"agent_servers": {
+		"claude": {
+			"default_model": "opus",
+		},
+	},
 	"colorize_brackets": false,
 	"show_whitespaces": "selection",
-	"ui_font_family": ".SystemUIFont",
-	"buffer_font_size": 14.0,
+	"ui_font_family": "Ioskeley Mono",
+	"buffer_font_size": 15.0,
 	"ui_font_size": 13.0,
-	"buffer_font_weight": 700.0,
-	"buffer_font_family": "Victor Mono",
+	"buffer_font_weight": 600.0,
+	"buffer_font_family": "Ioskeley Mono",
+	"cursor_blink": true,
 	"search": {
 		"include_ignored": false,
 	},
@@ -27,15 +45,7 @@
 			"formatter": {
 				"external": {
 					"command": "stylua",
-					"arguments": [
-						"--syntax=CfxLua",
-						"--config-path",
-						"/Users/vipex/stylua.toml",
-						"--respect-ignores",
-						"--stdin-filepath",
-						"{buffer_path}",
-						"-",
-					],
+					"arguments": ["--syntax=CfxLua", "--config-path", "/Users/v/stylua.toml", "--respect-ignores", "--stdin-filepath", "{buffer_path}", "-"],
 				},
 			},
 		},
@@ -45,42 +55,21 @@
 		"border_size": 0.0,
 		"inactive_opacity": 1.0,
 	},
-	"experimental.theme_overrides": {
-		"syntax": {
-			"comment": {
-				"font_style": "italic",
-			},
-			"comment.doc": {
-				"font_style": "italic",
-			},
-			"keyword": {
-				"font_style": "italic",
-				"font_weight": null,
-			},
-			"predictive": {
-				"font_style": "italic",
-				"font_weight": null,
-			},
-		},
-	},
 	"relative_line_numbers": "wrapped",
 	"title_bar": {
 		"show_menus": false,
 		"show_sign_in": true,
-		"show_user_picture": false,
+		"show_user_picture": true,
 		"show_onboarding_banner": true,
 		"show_project_items": true,
 		"show_branch_name": true,
 		"show_branch_icon": false,
 	},
-	"status_bar": {
-		"experimental.show": false,
-	},
 	"toolbar": {
-		"agent_review": false,
-		"breadcrumbs": false,
-		"code_actions": false,
-		"quick_actions": false,
+		"agent_review": true,
+		"breadcrumbs": true,
+		"code_actions": true,
+		"quick_actions": true,
 		"selections_menu": false,
 	},
 	"linked_edits": false,
@@ -103,8 +92,8 @@
 		"git_status": true,
 	},
 	"icon_theme": {
-		"dark": "Modern Icons (Dark)",
-		"light": "Modern Icons (Light)",
+		"dark": "Soft Charmed Icons",
+		"light": "Material Icon Theme",
 	},
 	"collaboration_panel": {
 		"dock": "right",
@@ -115,6 +104,7 @@
 		"dock": "right",
 	},
 	"git_panel": {
+		"collapse_untracked_diff": true,
 		"dock": "left",
 	},
 	"telemetry": {
@@ -130,15 +120,13 @@
 	// "disable_ai": true,
 	"vim_mode": true,
 	"use_autoclose": true,
-	"buffer_line_height": {
-		"custom": 1.2999999523162842,
-	},
-	"ui_font_weight": 600.0,
+	"buffer_line_height": "standard",
 	"use_system_window_tabs": true,
 	"hard_tabs": true,
 	"hover_popover_enabled": true,
 	"extend_comment_on_newline": false,
 	"edit_predictions": {
+		"provider": "none",
 		"enabled_in_text_threads": false,
 	},
 	"gutter": {
@@ -146,7 +134,7 @@
 		"min_line_number_digits": 0,
 		"breakpoints": false,
 		"line_numbers": true,
-		"folds": false,
+		"folds": true,
 	},
 	"file_finder": {
 		"file_icons": true,
@@ -154,6 +142,7 @@
 		"modal_max_width": "medium",
 	},
 	"agent": {
+		"use_modifier_to_send": true,
 		"dock": "left",
 		"default_width": 640.0,
 		"default_model": {
@@ -177,9 +166,6 @@
 	"buffer_font_features": {
 		"calt": false,
 	},
-	"features": {
-		"edit_prediction_provider": "none",
-	},
 	"disable_ai": false,
 	"vim": {
 		"toggle_relative_line_numbers": true,
@@ -192,12 +178,11 @@
 		"show_pinned_tabs_in_separate_row": false,
 		"show_tab_bar_buttons": false,
 		"show_nav_history_buttons": false,
-		"show": false,
+		"show": true,
 	},
 	"terminal": {
 		"alternate_scroll": "on",
 		"blinking": "on",
-		"font_weight": 700,
 		"toolbar": {
 			"breadcrumbs": false,
 		},
@@ -229,11 +214,12 @@
 		},
 	},
 	"scrollbar": {
-		"axes": {
-			"vertical": true,
+		"git_diff": false,
+  "axes": {
+			"vertical": false,
 			"horizontal": false,
 		},
-		"show": "never",
+		"show": "always",
 	},
 	"lsp": {
 		"rust-analyzer": {
@@ -252,14 +238,16 @@
 				},
 			},
 		},
+		"lua-language-server": {
+			"binary": {
+				"arguments": ["--configpath=/Users/v/.luarc.json"],
+			},
+		},
 		"tailwindcss-language-server": {
 			"settings": {
 				"classFunctions": ["cva", "cx"],
 				"experimental": {
-					"classRegex": [
-						"[cls|className]\\s\\:\\=\\s\"([^\"]*)",
-						"class:\\s*?[\"'`]([^\"'`]*).*?,",
-					],
+					"classRegex": ["[cls|className]\\s\\:\\=\\s\"([^\"]*)", "class:\\s*?[\"'`]([^\"'`]*).*?,"],
 				},
 			},
 		},
@@ -271,9 +259,5 @@
 			"padding": 1,
 		},
 	},
-	"theme": {
-		"mode": "dark",
-		"light": "Siri Light",
-		"dark": "JetBrains Dark",
-	},
+	"theme": "Aura Dark",
 }
